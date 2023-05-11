@@ -1,0 +1,7 @@
+runtime: nodejs12
+service: website2
+
+handlers:
+- url: /.*
+  secure: always
+  script: auto
